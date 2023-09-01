@@ -1,0 +1,38 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Quiz Game</h1>
+    <div class="question">
+        <span>Question 1:</span>
+        <p>What is the capital of France?</p>
+    </div>
+    <div class="options">
+        <div class="option">
+            <input type="radio" name="q1" value="a">
+            <label for="a">a) Paris</label>
+        </div>
+        <div class="option">
+            <input type="radio" name="q1" value="b">
+            <label for="b">b) Rome</label>
+        </div>
+        <div class="option">
+            <input type="radio" name="q1" value="c">
+            <label for="c">c) Berlin</label>
+        </div>
+    </div>
+    <div class="result"></div>
+    <div class="score">
+        <span>Score: <span id="score">0</span></span>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
